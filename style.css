@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+:root{
+    --text-color:white ;
+    --hover-color:rgb(139, 104, 200) ;
+    --bg-color:red;
+
+}
+
+
+body{
+    font-family: "Poppins",sans-serif;
+    background-color:var(--bg-color);
+    color:var(--text-color);
+    background-image:url(one.avif);
+    background-size:  40px;
+    background-position: center;
+     height: 100vh;
+}
+.logo{
+   font-size: 30px;
+   font-weight: 700;
+   letter-spacing:1px;
+
+}
+span{
+    color: var(--hover-color);
+}
+
+h1{
+    color: yellow;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+h3{
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+img{
+    position: relative;;
+    right:0px;
+    top:20px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 12px;
+
+
+}
+
+header,.navlist{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 20px ;
+}
+
+.navlist a:hover{
+    background: var(--hover-color);
+}
+p{
+    color: burlywood;
+    width:400px;
+    height:400px;
+    margin: 20px 40px;
+    padding: 20px;
+}
