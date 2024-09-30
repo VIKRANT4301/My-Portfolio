@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,34 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
     <title>Portfolio</title>
 </head>
 <body>
-<header>
+<header class="header">
     <div class="container">
-    <div class="logo"><span>V</span>ikrant's <span>P</span>ortfolio</div>
-    
-    <nav>
-        <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#qualification">Qualification</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-   
+        <div class="logo"><span>V</span>ikrant.</div>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav>
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 
-<section id="home" class="home-section">
-    <div class="container">
-        <img src="Photo.jpg" alt="Vikrant Chakole's photo" >
-        <h2>Hi! I'M <strong>VIKRANT CHAKOLE</strong> </h2>
-        <h3>AND I'M</h3>
-        <h4>Web Designer, Frontend Developer, Java Developer, Graphics Designer </h4>
-    </div>
+<main>
+<section class="home" id="home">
+   <div class="home-content">
+       <table>
+           <tr>
+               <td>
+                   <h2>Hi! It's <strong>VIKRANT CHAKOLE</strong></h2>
+                   <h3>AND I'M</h3>
+                   <p>Web Designer | Frontend Developer | Java Developer | Graphics Designer</p>
+               </td>
+               <td>
+                   <img src="Photo.jpg" alt="Vikrant Chakole's photo" class="profile-img">
+               </td>
+           </tr>
+       </table>
+       <div class="social-icons">
+           <a href="https://github.com/VIKRANT4301/Vikrantcha.git"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/in/vikrant-chakole-a063a0269/"><i class="fab fa-linkedin-in"></i></a>
+           <a href="https://x.com/VChakole2032"><i class="fa-brands fa-twitter"></i></a>
+           <a href="https://www.instagram.com/vikrantchakole_32?igsh=Ym53b3NqNDRlN2tw"><i class="fa-brands fa-instagram"></i></a>
+       </div>
+       <div class="btn-group">
+           <a href="Resume.html" class="btn">Download CV</a>
+           <a href="#contact" class="btn">Contact</a>
+       </div>
+   </div>
 </section>
 
 <section id="about" class="about-section">
@@ -40,77 +61,91 @@
         <h2>About Me!</h2>
         <table>
             <tr>
-                
-                <td><p>Welcome to my portfolio! I am Vikrant, a web developer, graphic Designer with a passion for creating innovative solutions that blend functionality with aesthetic appeal. This portfolio showcases a selection of my work, reflecting my skills in HTML, CSS, JavaScript, and user experience design. As a Computer Science student passionate about technology and innovation, I love exploring areas like Software Development, Bug-Bounty, Testing, and Java Development. I enjoy solving complex problems and working on projects that make a difference. In my spare time, I like to stay updated on the latest tech trends and contribute to open-source initiatives. I’m excited to connect and collaborate with fellow tech enthusiasts!
-                    and ethical considerations in technology.
-                      Dedicated to creating cutting-edge solutions that enhance human life and address complex technological challenges.</p></td>
+                <td>
+                    <img src="Profile.jpg" alt="Vikrant Chakole's photo" class="profile-img">
+
+                </td>
+
+                <td>
+
+                    <p>Welcome to my portfolio! I am Vikrant, a web developer, graphic designer with a passion for creating innovative solutions that blend functionality with aesthetic appeal. This portfolio showcases a selection of my work, reflecting my skills in 
+                        <span class="techno-word-html">HTML</span>,
+                        <span class="techno-word-css">CSS</span>,
+                        <span class="techno-word-js">JavaScript</span>, and user experience design (<span class="techno-word-ux">UX</span>). 
+                        As a Computer Science student passionate about technology and innovation, I love exploring areas like <strong>Development, Bug-Bounty, Testing, and Java Development.</strong> 
+                        I enjoy solving complex problems and working on projects that make a difference. In my spare time, I like to stay updated on the latest tech trends and contribute to <span class="techno-word-open-source">Open-Source</span> initiatives. 
+                        I’m excited to connect and collaborate with fellow tech enthusiasts!</p>
+
+                </td>
             </tr>
-        </table>
-    </div>
+      </table>
+       </div>
 </section>
 
-
-
-
-<section id="services" class="services">
+<section class="services" id="services">
+    <h1>Services</h1>
     <div class="services-content">
-        <h2>Services I Offer</h2>
-        <ul>
-            <li>
-                <p><i>Custom Web Development:</i> Creating fully responsive, scalable, and SEO-optimized websites tailored to your business needs using modern technologies like <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and frameworks such as <strong>React</strong> or <strong>Angular</strong>.</p>
-            </li>
-            <li>
-                <p><i>Backend Development:</i> Building secure and efficient backend solutions, including API integrations, databases, and server-side development using <strong>Node.js</strong>, <strong>Express</strong>, or <strong>Java</strong>.</p>
-            </li>
-            <li>
-                <p><i>Mobile App Development:</i> Designing and developing mobile applications for iOS and Android platforms using <strong>Flutter</strong> or <strong>React Native</strong> to provide a seamless user experience.</p>
-            </li>
-            <li>
-                <p><i>E-commerce Solutions:</i> Developing user-friendly and scalable e-commerce websites and platforms that streamline your online sales and business processes.</p>
-            </li>
-            <li>
-                <p><i>Maintenance & Support:</i> Providing ongoing maintenance, updates, and technical support to ensure your website or app is always running smoothly.</p>
-            </li>
-        </ul>
+        <div class="services-box">
+            <div class="services-info">
+
+                <h4><i>Custom Web Development:</i></h4>
+                <p>Creating fully responsive, scalable, and SEO-optimized websites tailored to your business needs using modern technologies like <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and frameworks such as <strong>React</strong> or <strong>Angular</strong>.</p>
+                <img src="Profile2.jpg" alt="Vikrant Chakole's photo" class="profile-img">
+              </div>
+        </div>
+
+        <div class="services-box">
+            <div class="services-info">
+                <h4><i>Backend Development:</i></h4>
+                <p>Building secure and efficient backend solutions, including API integrations, databases, and server-side development using <strong>Node.js</strong>, <strong>Express</strong>, or <strong>Java</strong>.</p>
+                <img src="Profile3.jpg" alt="Vikrant Chakole's photo" class="profile-img">
+            </div>
+        </div>
+        <div class="services-box">
+            <div class="services-info">
+              <h4>Mobile App Development:</h4>
+                <p>Designing and developing mobile applications for iOS and Android platforms using <strong>Flutter</strong> or <strong>React Native</strong> to provide a seamless user experience.</p>
+                <img src="Profile4.jpg" alt="Vikrant Chakole's photo" class="profile-img">
+            </div>
+        </div>
+        <div class="services-box">
+            <div class="services-info">
+                <h4><i>E-commerce Solutions:</i></h4>
+                <p>Developing user-friendly and scalable e-commerce websites and platforms that streamline your online sales and business processes.</p>
+                <img src="Profile5.jpg" alt="Vikrant Chakole's photo" class="profile-img">
+            </div>
+
+        </div>
+        <div class="services-box">
+            <div class="services-info">
+                <h4><i>Maintenance & Support:</i></h4>
+                <p>Providing ongoing maintenance, updates, and technical support to ensure your website or app is always running smoothly.</p>
+                <img src="Profile6.jpg" alt="Vikrant Chakole's photo" class="profile-img">
+            </div>
+        </div>
     </div>
 </section>
 
-
-
-
-<section id="qualification" class="qualifications-section">
+<section id="certifications" class="certifications-section">
     <div class="container">
-        <h2>Qualifications</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Passing Year</th>
-                    <th scope="col">Institution Name</th>
-                    <th scope="col">Percentage</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>B.Tech in Computer Science and Engineering (Cyber Security)</td>
-                    <td>2026</td>
-                    <td>St. Vincent Pallotti College of Engineering and Technology</td>
-                    <td>85%</td>
-                </tr>
-                <tr>
-                    <td>HSC in Computer Science</td>
-                    <td>2022</td>
-                    <td>Major Hemant Jakate Institute of Science</td>
-                    <td>87%</td>
-                </tr>
-                <tr>
-                    <td>SSC</td>
-                    <td>2020</td>
-                    <td>St. Paul High School</td>
-                    <td>86%</td>
-                </tr>
-            </tbody>
-        </table>
+        <h2>Certifications</h2>
+        <div class="certification-list">
+            <div class="certification-item">
+                <h4>Fundamentals in Cybersecurity</h4>
+                <p><strong>Issued by:</strong> FORTINET | <strong>Date:</strong> October 2023</p>
+                <a href="Fortinet_Certified_Fundamentals_in_Cybersecurity.pdf" download>Download File</a>
+            </div>
+            <div class="certification-item">
+                <h4>Hacker's Heist Team Member</h4>
+                <p><strong>Issued by:</strong> SVPCET | <strong>Date:</strong> November 2023</p>
+                <a href="CERTIFICATE.jpg" download>Download File</a>
+            </div>
+            <div class="certification-item">
+                <h4>Network Security Associate Virtual Internship</h4>
+                <p><strong>Issued by:</strong> AICTE | <strong>Date:</strong> November 2023</p>
+                <a href="AICTE_CERTIFICATE.pdf" download>Download File</a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -131,18 +166,20 @@
     </div>
 </section>
 
-
-
 <section id="contact" class="contact-section">
     <div class="container">
         <h2>Contact Me</h2>
-        <p><i class="fa-solid fa-envelope"></i>: <a href="#">vikrantchakole36@gmail.com</a></p>
+        <p><i class="fa-solid fa-envelope"></i>: <a href="mailto:vikrantchakole36@gmail.com">vikrantchakole36@gmail.com</a></p>
         <p><i class="fab fa-linkedin-in"></i>: <a href="https://www.linkedin.com/in/vikrant-chakole-a063a0269/">LinkedIn</a></p>
         <p><i class="fa-brands fa-github"></i>: <a href="https://github.com/VIKRANT4301/Vikrantcha.gi">GitHub</a></p>
         <p><i class="fa-solid fa-phone"></i>: 8275894301</p>
     </div>
 </section>
 
-<button><a href="index.html">Back</a></button>
+</main>
+
+<footer>
+    <button><a href="index.html">Back</a></button>
+</footer>
 </body>
 </html>
