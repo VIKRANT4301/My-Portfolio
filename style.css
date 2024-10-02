@@ -147,7 +147,16 @@ header,.navlist{
     background: var(--hover-color);
     border-bottom: 3px solid var(--hover-color);
 }
-
+@media(max-width:600px){
+    nav ul li{
+        display:block;
+        margin:0;
+        padding:0.5rem 0;
+    }
+    nav ul{
+        text-align: center;
+    }
+}
 
 /* Mobile Menu */
 #menu-icon {
@@ -250,7 +259,7 @@ span {
     width: 50vh;
     letter-spacing: 1px;
     animation: fadeIn 4s ease-in-out;
-    color: #e34c26;
+    color: #e9ed70;
 
 
 }
