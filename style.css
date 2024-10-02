@@ -117,8 +117,8 @@ nav ul li a:hover {
 
 header,.navlist{
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
 
 }
@@ -147,16 +147,7 @@ header,.navlist{
     background: var(--hover-color);
     border-bottom: 3px solid var(--hover-color);
 }
-@media(max-width:600px){
-    nav ul li{
-        display:block;
-        margin:0;
-        padding:0.5rem 0;
-    }
-    nav ul{
-        text-align: center;
-    }
-}
+
 
 /* Mobile Menu */
 #menu-icon {
@@ -188,7 +179,6 @@ header,.navlist{
     text-align: center;
    text-transform: uppercase;
     letter-spacing: 2px;
-    
 }
 
 .home-content {
@@ -260,8 +250,6 @@ span {
     letter-spacing: 1px;
     animation: fadeIn 4s ease-in-out;
     color: #e9ed70;
-
-
 }
 
 /* Social Icons */
@@ -296,34 +284,43 @@ span {
 }
 
 /* Button Styles */
-.btn {
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--hover-color);
-    color: #000302;
-    border-radius: 4rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-    box-shadow: 0 0 25px var(--hover-color);
-    border: 2px solid transparent;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    -webkit-border-radius: 4rem;
-    -moz-border-radius: 4rem;
-    -ms-border-radius: 4rem;
-    -o-border-radius: 4rem;
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
 }
+.btn {
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #000302;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+      box-shadow: 0 0 25px var(--hover-color);
+      cursor: pointer;
+       transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
+}
+.btn-container {
+    text-align: center;
+}
 .btn:hover {
     transform: scale(1.1);
     box-shadow: 0 0 50px var(--hover-color);
 }
 .btn-group {
-    display: flex;
-    align-items:center;
-    padding: 50px;
-    gap: 8rem;
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 50px;
+        gap: 8rem;
 }
 
 .btn-group :hover {
