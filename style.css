@@ -363,34 +363,7 @@ span {
     }
 }
 
-/* For very small screens */
-@media (max-width: 480px) {
-    h2 {
-        font-size: 1.2rem;
-    }
 
-    h3 {
-        font-size: 1rem;
-    }
-
-    p {
-        font-size: 0.8rem;
-    }
-
-    .profile-img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .social-icons a {
-        font-size: 1rem;
-    }
-
-    .btn-group .btn {
-        font-size: 0.8rem;
-        padding: 5px 10px;
-    }
-}
 
 /* About Section */
 
