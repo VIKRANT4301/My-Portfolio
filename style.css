@@ -331,6 +331,67 @@ span {
     color: #000302;
     box-shadow: 0 0 25px var(--hover-color);
 }
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+    }
+
+    .btn-group .btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .social-icons a {
+        font-size: 1rem;
+    }
+
+    .btn-group .btn {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+}
+
 /* About Section */
 
 .about-section {
