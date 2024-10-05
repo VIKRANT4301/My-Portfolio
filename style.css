@@ -175,7 +175,7 @@ header,.navlist{
 @media (max-width: 768px) {
     .navlist {
         position: fixed;
-        top: 0;
+        top: 10px;
         right: 0;
         width: 100%;
         height: 100%;
@@ -398,20 +398,20 @@ box-shadow: 0 0 25px var(--hover-color);
     .home {
         flex-direction: column;
         height: auto;
-        padding: 20px 0;
+        padding: 100px;
     }
 
     .home-content {
-        padding: 20px;
+        padding: 40px;
     }
 
     .home-content img {
         width: 40vw;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     .home-section h2, .home-content h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .home-content h1 {
@@ -419,7 +419,7 @@ box-shadow: 0 0 25px var(--hover-color);
     }
 
     .home-content p {
-        font-size: 1.8rem;
+        font-size: 2rem;
         width: auto;
     }
 
