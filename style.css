@@ -173,7 +173,7 @@ header,.navlist{
 }
 
 /* Responsive Styles for Mobile */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .navlist {
        position:fixed;
@@ -201,7 +201,7 @@ header,.navlist{
     .menu-icon {
         position: absolute;
         top: 20px;
-        left: 300px;
+        left: 250px;
         display: flex;
         font-size: 2.5rem;
         color:white;
@@ -211,7 +211,7 @@ header,.navlist{
     .navlist li a {
       color:var(--accent-color);
       text-decoration: none;
-      padding: 30px;
+      padding: 10px 20px;
     }
 
     .navlist li a:hover {
