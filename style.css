@@ -135,7 +135,7 @@ header,.navlist{
 }
 .navlist{
     margin-right: 80px;
-    padding: 10px 20pc;
+    padding: 10px 20px;
     gap:100px;
 
 }
@@ -177,16 +177,18 @@ header,.navlist{
 
     .navlist {
        position:fixed;
+       display:none;
         top: 0;
         right: 0;
         width: 100%;
         height: 100%;
-        padding: 150px 10px;
-        margin: 10px;
+        padding: 100px 120px;
         background-color: var(--bg-color);
         background-size: cover;
         flex-direction: column;
-        display: none;
+        margin-right: 80px;
+        gap:10px;
+
     }
     .navlist.active {
         display: flex;
